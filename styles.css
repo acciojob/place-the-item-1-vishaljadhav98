@@ -1,2 +1,22 @@
 
 /* Your CSS Code here. */
+.flexbox{
+	display : flex;
+	justify-content : space-between;
+	flex-wrap : nowrap;
+}
+.one, .two, .three{
+	padding: 0px 20px 20px 0px;
+}
+.one{
+	order : 2;
+	background-color : red;
+}
+.two{
+	order : 3;
+	background-color : blue;
+}
+.three{
+	order : 1;
+	background-color : green;
+}
